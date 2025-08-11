@@ -1,10 +1,10 @@
-function setup() {
-  createCanvas(windowWidth, windowHeight);
+html, body {
+  margin: 0;
+  padding: 0;
 }
-
-function draw() {
-  background(99,109,170);
+canvas {
+  display: block;
 }
-function keyPressed() {
-  if (key === 'p') {
-    save('dibujo.jpg');
+h1{
+  font-family:Helvetica, Arial, sans-serif;
+}
